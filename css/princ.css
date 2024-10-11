@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+:root{
+    --corfundo:#007BFF;
+    --corfund2:#bfe4f0;
+    --cortxt1:#39ff39;
+    --corlink:#FF8C00;
+    --cordtl:#FFD700;
+    --corfund3:#F0E68C;
+    --corcompl:#8A2BE2;
+}
+
+/* Base */
+
+body{
+    background-color:var(--corfundo);
+}
+
+/* header */
+
+#title{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font: normal lighter 22pt  "Protest Guerrilla";
+}
+
+.nv{
+    padding-left: 20px;
+    display: flex;
+
+}
+.aNv{
+    padding-left: 35px;
+
+    display:inline;
+
+    font: normal bold  20pt 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+    color: var(--corlink);
+    
+    text-decoration: none;
+}
+#menu{
+ background-color: #F0E68C;   
+}
+#menu h1{
+    font: normal lighter 19pt  "Protest Guerrilla";
+}
